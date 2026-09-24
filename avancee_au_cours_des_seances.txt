@@ -1,0 +1,7 @@
+Séance 1 :
+
+- cadre du projet fixé avec le client
+- définition d'un chef de projet
+- lecture des documentations existantes
+- mise en place d'un outil de gestion d'information : GitHub
+- mise en place d'un outil de messagerie : teams
