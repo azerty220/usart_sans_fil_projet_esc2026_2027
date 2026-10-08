@@ -20,5 +20,34 @@
 
 
 
-à définir sur teams
+Lire attentivement les documents et être apte à les comprendre 
+
+
+
+**Séance 2 :**
+
+
+
+* Version de KiCad qui sera utilisée : 9.0
+* Chaîne de fonctionnement du système établie
+* Répartition du travail à faire, création des binômes, affiliation 
+* Création du planning et d'un diagramme de Gantt sur la globalité du projet 
+
+
+
+**Devoir pour la séance 3 :**
+
+
+
+Trouver les composants nécessaire aux bloc affilié à notre binôme, afin de présenter un bilan de puissance par bloc.
+
+On fera attention aux critères de gain, de prix, de pertes et de bruit thermique pour le choix des composants.
+
+
+
+**Séance 3 :** 
+
+
+
+* 
 
