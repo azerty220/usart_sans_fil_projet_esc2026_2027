@@ -1,3 +1,4 @@
 (sym_lib_table
   (version 7)
+  (lib (name "import_compo")(type "KiCad")(uri "${KIPRJMOD}/import_compo.kicad_sym")(options "")(descr ""))
 )
