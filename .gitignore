@@ -1,2 +1,4 @@
 .~lock.*
 *.lck
+*.bak
+/PCB1/pa_filtrage/pa_filtrage/pa_filtrage-backups

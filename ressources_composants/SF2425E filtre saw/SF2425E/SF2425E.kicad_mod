@@ -4,12 +4,15 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.45 1.74 90)
+		(at -0.52 1.29 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7471d55f-2d60-4b61-ac70-e702626af7dd")
 		(effects
-			(font (size 0.5 0.5) (thickness 0.0625))
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
 		)
 	)
 	(property "Value" "SF2425E"
@@ -18,7 +21,10 @@
 		(layer "F.Fab")
 		(uuid "03e4d039-1fd1-4bc2-b283-c42b6532b4a7")
 		(effects
-			(font (size 0.5 0.5) (thickness 0.0625))
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
 		)
 	)
 	(property "Datasheet" ""
@@ -28,7 +34,10 @@
 		(hide yes)
 		(uuid "9d47a6cb-07a9-4fab-9d56-849a1b76d86a")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Description" ""
@@ -38,25 +47,34 @@
 		(hide yes)
 		(uuid "1bcf1a60-e8c4-42d1-b619-b34187d6521b")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(attr smd)
 	(fp_rect
 		(start -0.1 -0.1)
 		(end 3.29 3.29)
-		(stroke (width 0.05) (type solid))
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ecdf44c4-61f1-446e-b548-ccc200e765cc")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.41 -0.52 0)
+		(at 1.4 -1.03 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "4ad22b8a-fd42-42a4-9bdf-66abafe5f670")
 		(effects
-			(font (size 0.4 0.4) (thickness 0.05))
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
 		)
 	)
 	(pad "1" smd rect

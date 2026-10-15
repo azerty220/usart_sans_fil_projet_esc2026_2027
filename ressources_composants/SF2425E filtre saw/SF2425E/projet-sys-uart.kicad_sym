@@ -7,10 +7,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SF2425"
-			(at 0 0 0)
+			(at 0 7.62 0)
 			(effects
 				(font
-					(size 0.762 0.762)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -49,21 +49,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "SF2425E_0_1"
+		(symbol "SF2425E_1_1"
 			(rectangle
 				(start -8.89 6.35)
 				(end 8.89 -6.35)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "SF2425E_1_1"
-			(pin input line
+			(pin power_in line
 				(at -11.43 3.81 0)
 				(length 2.54)
 				(name "IN_GND"
@@ -189,7 +187,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at 11.43 -3.81 180)
 				(length 2.54)
 				(name "OUT_GND"
