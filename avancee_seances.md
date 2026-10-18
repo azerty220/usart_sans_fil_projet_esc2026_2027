@@ -49,5 +49,39 @@ On fera attention aux critères de gain, de prix, de pertes et de bruit thermiqu
 
 
 
-* 
+* Mise en commun des différents composants trouvés 
+* Statut sur la fréquence utilisée : 868.6MHz
+* Commande de composants nécessaires passée : pour tout le projet (pcb suivant également) en prenant en compte les composants que nous avons déjà en stock 
+
+
+
+**Devoir pour la séance 4 :**
+
+
+
+Prendre en compte que nous devons finir le routage du pcb la semaine prochaine et s'avancer sur le schématique en fonction du besoin.
+
+
+
+**Séance 4 :** 
+
+
+
+* Finition des schématiques 
+* Avancée / Finitions du routage 
+* Prise en compte des composants passifs présents dans l'école : pour les dimensions pour l'empreinte notamment
+
+
+
+**Devoir pour la séance 5 :** 
+
+
+
+Avoir fini le routage entre temps, l'avoir fait validé, et qu'il ait été envoyé pour construction. 
+
+En prévision de la séance 5 : rien !
+
+
+
+**Séance 6 :** 
 
