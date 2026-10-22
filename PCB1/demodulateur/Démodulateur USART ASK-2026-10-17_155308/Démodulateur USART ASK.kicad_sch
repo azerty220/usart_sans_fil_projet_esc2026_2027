@@ -1662,6 +1662,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR07")
 					(unit 1)
@@ -1727,6 +1733,12 @@
 			(uuid "6fdea2dd-e0f5-4e59-8931-e822594d0a29")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR01")
@@ -1795,6 +1807,12 @@
 			(uuid "30ca6319-87fa-4b43-88b5-f869447f536a")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "C2")
@@ -1866,6 +1884,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "J2")
 					(unit 1)
@@ -1932,6 +1956,12 @@
 			(uuid "f43a6874-d27b-43cc-a44a-afb659605db0")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR09")
@@ -2004,6 +2034,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "J3")
 					(unit 1)
@@ -2069,6 +2105,12 @@
 			(uuid "9d7850d1-59bf-468a-8c43-923e2378f8e5")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#FLG03")
@@ -2138,6 +2180,12 @@
 			(uuid "0d9df480-a800-4d5a-9cfc-6ea3df1a4da1")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "R3")
@@ -2209,6 +2257,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "C1")
 					(unit 1)
@@ -2276,6 +2330,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#FLG02")
 					(unit 1)
@@ -2341,6 +2401,12 @@
 			(uuid "45f28d55-1c7e-404e-93d5-f3797eca4793")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR04")
@@ -2412,6 +2478,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "R4")
 					(unit 1)
@@ -2478,6 +2550,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR06")
 					(unit 1)
@@ -2543,6 +2621,12 @@
 			(uuid "501951b2-7b7d-4c2d-8beb-77feb60a9f13")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR05")
@@ -2615,6 +2699,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "C4")
 					(unit 1)
@@ -2682,6 +2772,12 @@
 			(uuid "fb447062-1559-4b5e-8fe6-7a0d0a41b703")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "C3")
@@ -2751,6 +2847,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "Rprot1")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "Rprot1")
 					(unit 1)
@@ -2817,6 +2919,12 @@
 			(uuid "91aba9f2-6c72-4648-931b-19bf49a8db68")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR02")
@@ -2885,6 +2993,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "R1")
 					(unit 1)
@@ -2950,6 +3064,12 @@
 			(uuid "375bbb08-dcd5-4e2d-aaf7-ab18abb091ef")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR08")
@@ -3018,6 +3138,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#FLG01")
 					(unit 1)
@@ -3083,6 +3209,12 @@
 			(uuid "80221d72-ec0d-4061-9f25-bcb0af5d0290")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#FLG04")
@@ -3153,6 +3285,12 @@
 			(uuid "c0e722ab-3a03-4a19-88ca-2b131fd19a47")
 		)
 		(instances
+			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "R2")
@@ -3242,6 +3380,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "U1")
 					(unit 1)
@@ -3312,6 +3456,12 @@
 		)
 		(instances
 			(project "Démodulateur USART ASK"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
+					(reference "RL1")
+					(unit 1)
+				)
+			)
+			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "RL1")
 					(unit 1)
@@ -3319,10 +3469,4 @@
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

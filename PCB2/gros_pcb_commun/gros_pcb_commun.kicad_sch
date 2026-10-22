@@ -2,9 +2,177 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 76074578-7479-44e4-aae5-03319eb4cd87)
+	(uuid "76074578-7479-44e4-aae5-03319eb4cd87")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 189.23 22.86)
+		(size 52.07 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52934ae4-c5b0-49f4-9fc4-600729130e5d")
+		(property "Sheetname" "Antenne Switch"
+			(at 189.23 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../PCB1/antenne_switch/switch_antenne_pcb_projet.kicad_sch"
+			(at 189.23 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gros_pcb_commun"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 22.86)
+		(size 48.26 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "77eba17e-8242-4bd9-8345-27323023ef6f")
+		(property "Sheetname" "Amplificateur de puissance Filtrage"
+			(at 105.41 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../PCB1/pa_filtrage/pa_filtrage/pa_filtrage.kicad_sch"
+			(at 105.41 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gros_pcb_commun"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 100.33)
+		(size 67.31 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ca14d6bf-a943-4d46-b7a9-fa4078108804")
+		(property "Sheetname" "Démodulateur"
+			(at 26.67 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../PCB1/demodulateur/Démodulateur USART ASK-2026-10-17_155308/Démodulateur USART ASK.kicad_sch"
+			(at 26.67 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gros_pcb_commun"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 22.86)
+		(size 46.99 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de70b654-bfbc-4a3e-aaea-09df0a465569")
+		(property "Sheetname" "Modulateur"
+			(at 26.67 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "../../PCB1/ASK_Mod+PLL_Oscill/ASK_Mod+PLL_Oscill.kicad_sch"
+			(at 26.67 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gros_pcb_commun"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
