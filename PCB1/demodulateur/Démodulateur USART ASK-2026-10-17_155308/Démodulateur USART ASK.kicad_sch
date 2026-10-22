@@ -11,380 +11,6 @@
 		(comment 2 "AD8313")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -874,6 +500,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1078,18 +829,6 @@
 		)
 	)
 	(rectangle
-		(start 22.86 60.96)
-		(end 64.77 85.09)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 66ec50c2-e71c-46a0-b095-51a6a53d9ae6)
-	)
-	(rectangle
 		(start 78.74 38.1)
 		(end 194.31 100.33)
 		(stroke
@@ -1101,18 +840,6 @@
 		)
 		(uuid 71752d5e-6b0f-41a6-b049-5bd0d010ba55)
 	)
-	(rectangle
-		(start 25.4 30.48)
-		(end 68.58 54.61)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e8c190b8-b2d4-41a0-b730-20a11c012b6a)
-	)
 	(text "Démodulateur ASK - AD8313"
 		(exclude_from_sim no)
 		(at 93.98 40.64 0)
@@ -1122,26 +849,6 @@
 			)
 		)
 		(uuid "5677ad33-315b-4be2-9155-de46ad685512")
-	)
-	(text "Port d'alimentation VCC\n"
-		(exclude_from_sim no)
-		(at 35.56 63.246 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b37fecab-c7ad-4b71-9582-0479314c2140")
-	)
-	(text "Port SMA\n"
-		(exclude_from_sim no)
-		(at 30.734 32.258 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c6324b31-60b2-40c3-ac26-911f8fa3b5e7")
 	)
 	(junction
 		(at 132.08 62.23)
@@ -1154,12 +861,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13c2b6a3-39f6-4f9a-ba2d-c076bb1b29f3")
-	)
-	(junction
-		(at 50.8 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1735abb6-287f-45a2-8640-191970f6a48a")
 	)
 	(junction
 		(at 137.16 62.23)
@@ -1197,12 +898,6 @@
 		(color 0 0 0 0)
 		(uuid "b25320d5-3e16-47ed-afd2-7b5cb18df45f")
 	)
-	(junction
-		(at 43.18 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f85cd565-4b95-49b4-ab85-a361a6a27820")
-	)
 	(wire
 		(pts
 			(xy 121.92 71.12) (xy 113.03 71.12)
@@ -1225,16 +920,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 73.66) (xy 43.18 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20d0486c-a4f5-4fcb-8ef1-32535f9124f4")
-	)
-	(wire
-		(pts
 			(xy 163.83 58.42) (xy 171.45 58.42)
 		)
 		(stroke
@@ -1252,16 +937,6 @@
 			(type default)
 		)
 		(uuid "2e43d71b-a4e1-43e6-a535-cc6ce6154a42")
-	)
-	(wire
-		(pts
-			(xy 50.8 76.2) (xy 36.83 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3333d8a8-8ef1-4ef0-ab00-f2a2ca6651ea")
 	)
 	(wire
 		(pts
@@ -1415,16 +1090,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 73.66) (xy 36.83 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3f75fd6-4d24-4a3e-ad1e-77278fb31bed")
-	)
-	(wire
-		(pts
 			(xy 119.38 55.88) (xy 119.38 58.42)
 		)
 		(stroke
@@ -1505,16 +1170,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 76.2) (xy 50.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa44e3ba-d5e7-4a3a-94f4-8794cf395f84")
-	)
-	(wire
-		(pts
 			(xy 148.59 82.55) (xy 153.67 82.55)
 		)
 		(stroke
@@ -1533,75 +1188,27 @@
 		)
 		(uuid "ff988a2e-2071-4a8f-a846-e99eac473108")
 	)
-	(label "demodIN"
-		(at 36.83 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06b4d784-db36-4eed-a251-1529d1148d6c")
-	)
-	(label "demodOUT"
-		(at 36.83 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a15a08f-feaf-45dd-8b8f-96f8b22cf179")
-	)
-	(label "VCC_demod"
-		(at 95.25 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46260876-7466-43a4-a75b-a225e6cb6048")
-	)
-	(label "demodIN"
+	(hierarchical_label "sig4"
+		(shape input)
 		(at 99.06 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "51438489-6311-4a58-9392-fdc511c234b3")
+		(uuid "10482fe7-d747-4827-83a0-964f94fc43cd")
 	)
-	(label "VCC_demod"
-		(at 45.72 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7203b4f4-f23f-4e6d-b47b-a64af7b1039a")
-	)
-	(label "VCC_demod"
-		(at 171.45 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "94a71d16-2d0a-4a31-aee8-62d9601c8ca9")
-	)
-	(label "demodOUT"
+	(hierarchical_label "sig5"
+		(shape output)
 		(at 171.45 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "ce90df6f-1649-42af-a905-d2d42203a1d6")
+		(uuid "121d4e2e-06b9-4e8c-a5b8-d00ed6309cd8")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1822,111 +1429,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 41.91 39.37 0)
+		(lib_id "power:+3.3V")
+		(at 171.45 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1340110f-6172-45f8-b98b-481445175b6e")
-		(property "Reference" "J2"
-			(at 45.72 38.3931 0)
+		(uuid "28131855-2e80-4502-a04d-309e92c92474")
+		(property "Reference" "#PWR043"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 175.26 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 45.72 40.9331 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 41.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b7a0bce-3282-4edb-82b1-bc8c946ba266")
-		)
-		(pin "1"
-			(uuid "54b74d87-99c0-486c-beab-de9819f3f889")
-		)
-		(instances
-			(project "Démodulateur USART ASK"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "Démodulateur USART ASK"
-				(path "/d941714e-3649-4f35-95c2-a1099436473b"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c3eff16-a4b7-499d-9169-bf9e9cece59e")
-		(property "Reference" "#PWR09"
-			(at 59.69 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 76.2 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 76.2 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1943,79 +1474,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f43a6874-d27b-43cc-a44a-afb659605db0")
-		)
-		(instances
-			(project "Démodulateur USART ASK"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-			(project "Démodulateur USART ASK"
-				(path "/d941714e-3649-4f35-95c2-a1099436473b"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 31.75 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34d5fbd6-a049-43ee-9ebd-fac557c916b4")
-		(property "Reference" "J3"
-			(at 32.385 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 32.385 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 31.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 31.75 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 31.75 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2024,41 +1484,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a894111-1202-4b01-bf93-50876b59ed1a")
-		)
-		(pin "3"
-			(uuid "15ab4a47-dac7-4e89-8987-9c93d4117dee")
-		)
-		(pin "2"
-			(uuid "aefd1738-ea13-464b-b337-5fc4876d5794")
+			(uuid "866d6666-b89e-41aa-9864-fdaec5b7c092")
 		)
 		(instances
-			(project "Démodulateur USART ASK"
+			(project "gros_pcb_commun"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "Démodulateur USART ASK"
-				(path "/d941714e-3649-4f35-95c2-a1099436473b"
-					(reference "J3")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 43.18 73.66 0)
+		(lib_id "power:+3.3V")
+		(at 95.25 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "35cd0e91-064c-4d16-aea4-0c18ed336d23")
-		(property "Reference" "#FLG03"
-			(at 43.18 71.755 0)
+		(uuid "308194a0-9f3c-40bb-923a-57db54e2be94")
+		(property "Reference" "#PWR033"
+			(at 99.06 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,16 +1514,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 43.18 68.58 0)
+		(property "Value" "+3.3V"
+			(at 91.44 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 73.66 0)
+			(at 95.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2083,8 +1532,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 43.18 73.66 0)
+		(property "Datasheet" ""
+			(at 95.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,8 +1541,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 43.18 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 95.25 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,18 +1551,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d7850d1-59bf-468a-8c43-923e2378f8e5")
+			(uuid "4873a77b-b702-4a37-a49e-41e762aac844")
 		)
 		(instances
-			(project "Démodulateur USART ASK"
+			(project ""
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-			(project "Démodulateur USART ASK"
-				(path "/d941714e-3649-4f35-95c2-a1099436473b"
-					(reference "#FLG03")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2558,78 +2001,6 @@
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 41.91 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "828be113-81a2-4942-bcfe-428e1e6e0fec")
-		(property "Reference" "#PWR05"
-			(at 41.91 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 41.91 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "501951b2-7b7d-4c2d-8beb-77feb60a9f13")
-		)
-		(instances
-			(project "Démodulateur USART ASK"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "Démodulateur USART ASK"
-				(path "/d941714e-3649-4f35-95c2-a1099436473b"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3146,78 +2517,6 @@
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 50.8 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0418351-4db3-41ea-8b05-37eedf070604")
-		(property "Reference" "#FLG04"
-			(at 50.8 78.105 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 50.8 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "80221d72-ec0d-4061-9f25-bcb0af5d0290")
-		)
-		(instances
-			(project "Démodulateur USART ASK"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-			(project "Démodulateur USART ASK"
-				(path "/d941714e-3649-4f35-95c2-a1099436473b"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
