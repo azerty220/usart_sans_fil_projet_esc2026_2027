@@ -428,6 +428,10 @@
     [
       "ca14d6bf-a943-4d46-b7a9-fa4078108804",
       "Démodulateur"
+    ],
+    [
+      "abe7b479-45eb-4dfa-828c-06dba2b3a9da",
+      "Amplificateur faible bruit Filtrage"
     ]
   ],
   "text_variables": {}

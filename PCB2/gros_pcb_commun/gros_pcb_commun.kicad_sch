@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 175.26 99.06)
+		(size 72.39 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "abe7b479-45eb-4dfa-828c-06dba2b3a9da")
+		(property "Sheetname" "Amplificateur faible bruit Filtrage"
+			(at 175.26 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 175.26 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "gros_pcb_commun"
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 26.67 100.33)
 		(size 67.31 39.37)
 		(exclude_from_sim no)
