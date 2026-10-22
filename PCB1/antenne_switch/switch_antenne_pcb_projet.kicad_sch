@@ -1041,12 +1041,6 @@
 		(color 0 0 0 0)
 		(uuid "2edcf962-92e8-4f78-98ae-885061c6da16")
 	)
-	(junction
-		(at 88.9 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d008c877-2147-4731-9e67-1416e92bf551")
-	)
 	(no_connect
 		(at 123.19 69.85)
 		(uuid "acf1f5d6-0982-414c-9759-aca9a6458de7")
@@ -1303,7 +1297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05450905-492f-4660-8257-dc3cbfa44680")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR064"
 			(at 180.34 107.95 0)
 			(effects
 				(font
@@ -1358,7 +1352,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#PWR02")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1374,7 +1368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b8a668e-9bf2-4402-a257-38cee1036695")
-		(property "Reference" "R2"
+		(property "Reference" "R12"
 			(at 132.08 85.725 0)
 			(effects
 				(font
@@ -1433,7 +1427,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "R2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -1449,7 +1443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d2f8fb7-6fba-4285-8241-ddff20e72742")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR063"
 			(at 165.1 107.95 0)
 			(effects
 				(font
@@ -1504,7 +1498,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#PWR01")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1520,7 +1514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "575163b5-bf10-437f-8d42-7625af7e52dd")
-		(property "Reference" "R3"
+		(property "Reference" "R13"
 			(at 142.24 85.725 0)
 			(effects
 				(font
@@ -1579,7 +1573,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "R3")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1595,7 +1589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c8b45ed-c4a4-49f7-ba08-0ec70634077f")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 110.49 64.77 0)
 			(effects
 				(font
@@ -1673,7 +1667,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1760,7 +1754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79afd0aa-208e-4fae-9d0d-dd105da122e7")
-		(property "Reference" "L1"
+		(property "Reference" "L6"
 			(at 172.72 87.63 90)
 			(effects
 				(font
@@ -1817,7 +1811,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "L1")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -1833,7 +1827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d76b425-e8d0-4a62-9766-6ad6cae93b6d")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR060"
 			(at 88.9 96.52 0)
 			(effects
 				(font
@@ -1888,7 +1882,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#PWR03")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1904,7 +1898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8557a800-5a48-493c-984a-e35d08430ca0")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR061"
 			(at 129.54 96.52 0)
 			(effects
 				(font
@@ -1959,7 +1953,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#PWR05")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1975,7 +1969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "973c2943-e938-436a-b0fe-5352726118ab")
-		(property "Reference" "C1"
+		(property "Reference" "C38"
 			(at 168.91 94.615 0)
 			(effects
 				(font
@@ -2034,7 +2028,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "C1")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -2050,7 +2044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cb33300-2f1c-41dd-9fb8-f06db58e9c64")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG05"
 			(at 110.49 95.885 0)
 			(effects
 				(font
@@ -2105,7 +2099,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#FLG01")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -2121,7 +2115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeb2b092-84d3-4169-9d10-437864a340ea")
-		(property "Reference" "R1"
+		(property "Reference" "R11"
 			(at 91.44 85.725 0)
 			(effects
 				(font
@@ -2180,7 +2174,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2196,7 +2190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d123b6a6-702f-4451-845e-99d541328b6f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR062"
 			(at 139.7 96.52 0)
 			(effects
 				(font
@@ -2251,7 +2245,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#PWR06")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2267,7 +2261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbaa35e1-671b-47cc-a494-e00d9f93ce7e")
-		(property "Reference" "C2"
+		(property "Reference" "C39"
 			(at 184.15 94.615 0)
 			(effects
 				(font
@@ -2326,79 +2320,7 @@
 			)
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 88.9 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f57dd809-69c2-45d8-a9b9-39b7e88362cc")
-		(property "Reference" "#FLG02"
-			(at 86.995 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 85.09 90.805 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea61ed28-b609-4309-8b88-08bbc9cc34e2")
-		)
-		(instances
-			(project "switch_antenne_pcb_projet"
-				(path "/466e3751-f273-4ede-b9d8-d94bb943d431"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "switch_antenne_pcb_projet"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#FLG02")
+					(reference "C39")
 					(unit 1)
 				)
 			)
