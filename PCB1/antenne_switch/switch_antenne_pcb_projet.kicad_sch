@@ -1245,26 +1245,6 @@
 		)
 		(uuid "efb25a31-e80a-46ae-aed2-a6be7d2c2156")
 	)
-	(label "Vers réception"
-		(at 123.19 105.41 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ae2aeef-15e8-46e2-9be9-dee7bb66d555")
-	)
-	(label "Vers émission"
-		(at 97.79 105.41 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3448817c-e2f3-493a-91ae-c73dfd1423ee")
-	)
 	(hierarchical_label "sig3"
 		(shape output)
 		(at 123.19 110.49 270)
@@ -1701,7 +1681,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "WE_MCA:AE_Wurth_WE-MCA_7488910092"
+		(property "Footprint" "Antenna_SMD_Wurth:AE_Wurth_WE-MCA_7488910092"
 			(at 214.63 77.47 0)
 			(effects
 				(font
