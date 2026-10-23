@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PE42430_switch")(type "KiCad")(uri "C:/Users/elise/OneDrive - ensea/Bureau/usart_sans_fil_projet_esc2026_2027/PCB1/antenne_switch/PE42430_switch.pretty")(options "")(descr ""))
+)
