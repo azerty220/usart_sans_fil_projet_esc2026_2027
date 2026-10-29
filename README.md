@@ -22,7 +22,9 @@ Paramètres de l'USART fourni :
 
 ## Choix de la fréquence porteuse et de la modulation
 
-868MHz ASK 
+Nous avons choisi une porteuse à **868MHz**, ainsi que la modulation **ASK**,
+<br>Notre choix s'est porté sur la modulation ASK afin d'obtenir une portée nettement supérieure. De plus, nous avons pris en compte l'expérience d'un groupe ayant réalisé ce même projet en 2025 avec la modulation BPSK : leur choix avait entraîné de lourdes difficultés, notamment au niveau de la démodulation et de la récupération de la porteuse en phase. Cette dernière nécessitait en effet une PLL sans erreur de phase, alors qu'une PLL est initialement conçue pour minimiser les erreurs de fréquence.
+<br> En ce qui concerne la fréquence, nous avons choisi de réutiliser les composants des années précédentes afin de réduire les coûts. De plus, opter pour la bande des 2,4 GHz nous aurait exposé à de nombreuses interférences proches du Wi-Fi, qui se seraient avérées difficiles à filtrer.
 
 ## Choix des composants
 
