@@ -28,6 +28,7 @@ Nous avons choisi une porteuse à **868MHz**, ainsi que la modulation **ASK**,
 ## Vue d'ensemble du système émission/réception
 Voici une description de notre système. Celui-ci s'organise autour d'une chaîne d'émission (composée du modulateur ASK, du PA et du filtrage) et d'une chaîne de réception (composée du filtrage, du LNA et du démodulateur ASK). Pour permettre l'utilisation d'une seule antenne dans les deux modes, les deux chaînes sont reliées par un Switch RF qui permet de passer d'un mode à l'autre. L'ensemble est piloté par un microcontrôleur µC et la porteuse elle est générée par l'oscillateur local : 
 ![Schéma système](images/Schéma_simplifié_du_projet.png)
+Dans un premier temps, nous avons découpé le système par fonctions : chaque binôme s'est vu assigner une tâche spécifique et devait réaliser un premier PCB (2 couches) dédié. Dans un second temps, une fois les tests validés, un PCB unique à 4 couches a été conçu pour regrouper l'ensemble du système.
 
 ## Description de la chaîne d'émission
 choix des composants module par module
