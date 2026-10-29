@@ -21,12 +21,15 @@ Paramètres de l'USART fourni :
     1 bit de stop
 
 ## Choix de la fréquence porteuse et de la modulation
-
 Nous avons choisi une porteuse à **868MHz**, ainsi que la modulation **ASK**,
 <br>-Notre choix s'est porté sur la modulation ASK afin d'obtenir une portée nettement supérieure. De plus, nous avons pris en compte l'expérience d'un groupe ayant réalisé ce même projet en 2025 avec la modulation BPSK : leur choix avait entraîné de lourdes difficultés, notamment au niveau de la démodulation et de la récupération de la porteuse en phase. Cette dernière nécessitait en effet une PLL sans erreur de phase, alors qu'une PLL est initialement conçue pour minimiser les erreurs de fréquence.
 <br>-En ce qui concerne la fréquence, nous avons choisi de réutiliser les composants des années précédentes afin de réduire les coûts. De plus, opter pour la bande des 2,4 GHz nous aurait exposé à de nombreuses interférences proches du Wi-Fi, qui se seraient avérées difficiles à filtrer.
 
-## Description du système
+## Vue d'ensemble du système émission/réception
+Voici une description de notre système. Celui-ci s'organise autour d'une chaîne d'émission (composée du modulateur ASK, du PA et du filtrage) et d'une chaîne de réception (composée du filtrage, du LNA et du démodulateur ASK). Pour permettre l'utilisation d'une seule antenne dans les deux modes, les deux chaînes sont reliées par un Switch RF qui permet de passer d'un mode à l'autre. L'ensemble est piloté par un microcontrôleur µC et la porteuse elle est générée par l'oscillateur local : 
 ![Schéma système](images/Schéma_simplifié_du_projet.png)
-## Choix des composants
 
+## Description de la chaîne d'émission
+choix des composants module par module
+## Description de la chaîne de réception
+choix des composants modules par module
