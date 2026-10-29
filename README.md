@@ -32,11 +32,11 @@ Dans un premier temps, nous avons découpé le système par fonctions : chaque b
 
 ## Description de la chaîne d'émission
 Le rôle principal de la chaîne d'émission, consiste à traiter les données numériques reçues par liaison UART, à générer une porteuse radiofréquence à 868 MHz (stabilisée par un oscillateur local à boucle à verrouillage de phase (PLL)), puis à appliquer une modulation d'amplitude de type ASK (Amplitude Shift Keying). Le signal ainsi modulé traverse ensuite un étage de filtrage avant d'être acheminé vers l'antenne.
-    Le développement de cette chaîne d'émission a été structuré autour de plusieurs objectifs clés :
-        1-Garantir l'intégrité et la fiabilité de la transmission des données numériques via l'interface UART.
-        2-Produire un signal porteur RF stable, propre et paramétrable.
-        3-Exécuter une modulation ASK fidèle aux trames de données à transmettre.
-        4-Filtrer efficacement le signal radiofréquence pour respecter les normes en vigueur avant son émission par l'antenne.
+    <br>Le développement de cette chaîne d'émission a été structuré autour de plusieurs objectifs clés :
+        <br>1-Garantir l'intégrité et la fiabilité de la transmission des données numériques via l'interface UART.
+        <br>2-Produire un signal porteur RF stable, propre et paramétrable.
+        <br>3-Exécuter une modulation ASK fidèle aux trames de données à transmettre.
+        <br>4-Filtrer efficacement le signal radiofréquence pour respecter les normes en vigueur avant son émission par l'antenne.
 
 ## Description de la chaîne de réception
 choix des composants modules par module
