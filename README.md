@@ -27,6 +27,6 @@ Nous avons choisi une porteuse à **868MHz**, ainsi que la modulation **ASK**,
 <br>-En ce qui concerne la fréquence, nous avons choisi de réutiliser les composants des années précédentes afin de réduire les coûts. De plus, opter pour la bande des 2,4 GHz nous aurait exposé à de nombreuses interférences proches du Wi-Fi, qui se seraient avérées difficiles à filtrer.
 
 ## Description du système
-
+![Schéma système](Images/Schéma_flipper.png)
 ## Choix des composants
 
