@@ -47,7 +47,7 @@ Commutation entre les 2 modes -> Johan
 
 # Description de la chaîne de réception
 choix des composants modules par module
-# Bloc filtrage et LNA
+## Bloc filtrage et LNA
 Julie L et Rafik
-# Bloc Démodulateur
+## Bloc Démodulateur
 Awa
