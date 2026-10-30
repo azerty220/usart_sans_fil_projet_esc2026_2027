@@ -30,22 +30,22 @@ Voici une description de notre système. Celui-ci s'organise autour d'une chaîn
 ![Schéma système](images/Schéma_simplifié_du_projet.png)
 Dans un premier temps, nous avons découpé le système par fonctions : chaque binôme s'est vu assigner une tâche spécifique et devait réaliser un premier PCB (2 couches) dédié. Dans un second temps, une fois les tests validés, un PCB unique à 4 couches a été conçu pour regrouper l'ensemble du système.
 
-## Description de la chaîne d'émission
+# Description de la chaîne d'émission
 Le rôle principal de la chaîne d'émission, consiste à traiter les données numériques reçues par liaison UART, à générer une porteuse radiofréquence à 868 MHz (stabilisée par un oscillateur local à boucle à verrouillage de phase (PLL)), puis à appliquer une modulation d'amplitude de type ASK (Amplitude Shift Keying). Le signal ainsi modulé traverse ensuite un étage de filtrage avant d'être acheminé vers l'antenne.
     <br>Le développement de cette chaîne d'émission a été structuré autour de plusieurs objectifs clés :
         <br> 1- Garantir l'intégrité et la fiabilité de la transmission des données numériques via l'interface UART.
         <br> 2- Produire un signal porteur RF stable, propre et paramétrable.
         <br> 3- Exécuter une modulation ASK fidèle aux trames de données à transmettre.
         <br> 4- Filtrer efficacement le signal radiofréquence pour respecter les normes en vigueur avant son émission par l'antenne.
-# Bloc génération de la porteuse et modulation ASK
+## Bloc génération de la porteuse et modulation ASK
 
-# Bloc amplificateur de puissance et filtrage
+## Bloc amplificateur de puissance et filtrage
 Callum et Elise
 
-## Switch RF et antenne
+# Switch RF et antenne
 Commutation entre les 2 modes -> Johan
 
-## Description de la chaîne de réception
+# Description de la chaîne de réception
 choix des composants modules par module
 # Bloc filtrage et LNA
 Julie L et Rafik
