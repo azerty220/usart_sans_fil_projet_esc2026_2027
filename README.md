@@ -38,7 +38,10 @@ Le rôle principal de la chaîne d'émission, consiste à traiter les données n
         <br> 3- Exécuter une modulation ASK fidèle aux trames de données à transmettre.
         <br> 4- Filtrer efficacement le signal radiofréquence pour respecter les normes en vigueur avant son émission par l'antenne.
 ## Bloc génération de la porteuse et modulation ASK
-
+1- interface Nucléo PCB RF
+<br>2- Génération de la porteuse
+<br>3- Modulation ASK
+<br>-> SMA vers le PCB amplificateur de puissance et filtrage
 ## Bloc amplificateur de puissance et filtrage
 Callum et Elise
 
