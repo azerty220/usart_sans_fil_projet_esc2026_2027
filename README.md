@@ -42,6 +42,7 @@ Le rôle principal de la chaîne d'émission, consiste à traiter les données n
 <br>2- Génération de la porteuse
 <br>3- Modulation ASK
 <br>-> SMA vers le PCB amplificateur de puissance et filtrage
+<br> Vue d'ensemble du PCB
 ## Bloc amplificateur de puissance et filtrage
 Callum et Elise
 
