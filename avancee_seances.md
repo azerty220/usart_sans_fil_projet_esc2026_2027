@@ -20,7 +20,7 @@
 
 
 
-Lire attentivement les documents et être apte à les comprendre 
+Lire attentivement les documents et être apte à les comprendre
 
 
 
@@ -30,8 +30,8 @@ Lire attentivement les documents et être apte à les comprendre
 
 * Version de KiCad qui sera utilisée : 9.0
 * Chaîne de fonctionnement du système établie
-* Répartition du travail à faire, création des binômes, affiliation 
-* Création du planning et d'un diagramme de Gantt sur la globalité du projet 
+* Répartition du travail à faire, création des binômes, affiliation
+* Création du planning et d'un diagramme de Gantt sur la globalité du projet
 
 
 
@@ -45,13 +45,13 @@ On fera attention aux critères de gain, de prix, de pertes et de bruit thermiqu
 
 
 
-**Séance 3 :** 
+**Séance 3 :**
 
 
 
-* Mise en commun des différents composants trouvés 
+* Mise en commun des différents composants trouvés
 * Statut sur la fréquence utilisée : 868.6MHz
-* Commande de composants nécessaires passée : pour tout le projet (pcb suivant également) en prenant en compte les composants que nous avons déjà en stock 
+* Commande de composants nécessaires passée : pour tout le projet (pcb suivant également) en prenant en compte les composants que nous avons déjà en stock
 
 
 
@@ -63,25 +63,52 @@ Prendre en compte que nous devons finir le routage du pcb la semaine prochaine e
 
 
 
-**Séance 4 :** 
+**Séance 4 :**
 
 
 
-* Finition des schématiques 
-* Avancée / Finitions du routage 
+* Finition des schématiques
+* Avancée / Finitions du routage
 * Prise en compte des composants passifs présents dans l'école : pour les dimensions pour l'empreinte notamment
 
 
 
-**Devoir pour la séance 5 :** 
+**Devoir pour la séance 5 :**
 
 
 
-Avoir fini le routage entre temps, l'avoir fait validé, et qu'il ait été envoyé pour construction. 
+Avoir fini le routage entre temps, l'avoir fait validé, et qu'il ait été envoyé pour construction.
 
 En prévision de la séance 5 : rien !
 
 
 
-**Séance 6 :** 
+**Séance 6 :**
+
+
+
+* Protocole de test rédigé pour chaque PCB
+* Schématique du PCB final fait
+
+
+
+**Devoir pour la séance 7 :**
+
+
+
+Avoir soudé le PCB et avoir effectué les tests afin de pouvoir modifié le routage du PCB final.
+
+
+
+**Séance 7 :**
+
+
+
+* écrire ici
+
+
+
+
+
+
 
