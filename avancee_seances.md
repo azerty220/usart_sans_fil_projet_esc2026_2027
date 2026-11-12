@@ -2,17 +2,17 @@
 
 
 
-\- cadre du projet fixé avec le client
+* cadre du projet fixé avec le client
 
-\- définition d'un chef de projet
+* définition d'un chef de projet
 
-\- lecture des documentations existantes
+* lecture des documentations existantes
 
-\- mise en place d'un outil de gestion d'information : GitHub
+* mise en place d'un outil de gestion d'information : GitHub
 
-\- mise en place d'un outil de messagerie : teams
+* mise en place d'un outil de messagerie : teams
 
-\- Comparaison des solutions proposées (BPSK à 2.44GHz, et ASK à 868MHz) : Avantages, Inconvénients
+* Comparaison des solutions proposées (BPSK à 2.44GHz, et ASK à 868MHz) : Avantages, Inconvénients
 
 
 
@@ -105,10 +105,5 @@ Avoir soudé le PCB et avoir effectué les tests afin de pouvoir modifié le rou
 
 
 * écrire ici
-
-
-
-
-
 
 
