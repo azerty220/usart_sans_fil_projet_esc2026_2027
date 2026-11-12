@@ -1,0 +1,59 @@
+Reference,Qty,Value,Footprint
+AE1,1,Antenna,Antenna_SMD_Wurth:AE_Wurth_WE-MCA_7488910092
+"C1,C3,C5,C7,C9",5,100 nF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C2,C4,C6,C10,C13,C15,C17,C27",8,10 pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C8,1,10 pF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C11,1,1 uF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C12,C14,C16,C18,C28,C42,C43",7,0.1 uF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C19,1,1 nF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C20,C21",2,4 nF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C22,1,120 pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C23,1,42.3 nF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C24,1,575 nF,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C25,1,19.3 nF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C26,1,100 pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C29,C32,C35,C36",4,0.1u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C30,1,2.7p,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C31,1,33p,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+"C33,C37",2,10u,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+C34,1,3.5p,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C38,1,3.9pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C39,1,3.3pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+"C40,C41",2,680 pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C44,1,47pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C45,1,4.7pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C46,1,100nF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C47,1,100pF,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C48,1,"2,7pF",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+C49,1,"3,5pF",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
+FL1,1,SF2425E,SF2425E:SF2425E
+"H1,H2,H3,H4",4,MountingHole_Pad,MountingHole:MountingHole_3.2mm_M3_Pad
+J1,1,Conn_01x03_Pin,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+J2,1,Conn_01x04_Pin,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+J3,1,Conn_01x05,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+J4,1,Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+L1,1,68 nH,Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder
+"L2,L3",2,18 nH,Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder
+"L4,L5",2,24n,Inductor_SMD:L_0603_1608Metric
+L6,1,12nH,Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder
+"L7,L8,L9",3,22nH,Inductor_SMD:L_0603_1608Metric
+"R1,R2,R3,R5,R8,R11,R12,R13",8,10k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R4,1,5.1 k,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R6,1,59.7,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R7,1,122,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R9,1,50,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+R10,1,5k1,Resistor_SMD:R_0603_1608Metric
+"R14,R17",2,10,Resistor_SMD:R_0603_1608Metric
+R15,1,"53,6",Resistor_SMD:R_0603_1608Metric
+R16,1,0,Resistor_SMD:R_0603_1608Metric
+R18,1,910,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+RL1,1,1M,Resistor_SMD:R_0603_1608Metric
+Rprot1,1,500,Resistor_SMD:R_0603_1608Metric
+SF1,1,~,SF2425E:SF2425E
+U1,1,ADF4350,Package_CSP:LFCSP-32-1EP_5x5mm_P0.5mm_EP3.25x3.25mm
+U2,1,ADG918BCPZ,Package_CSP:LFCSP-8-1EP_3x3mm_P0.5mm_EP1.45x1.74mm
+U3,1,SKY66185-11,SKY66185-11:IC_SKY66185-11
+U4,1,~,PE42430_switch:SON50P200X200X60-9N160X90
+U5,1,AD8313xRM,Package_SO:MSOP-8_3x3mm_P0.65mm
+U6,1,GRF2070,Library_dfn8:DFN-8-2x2mm_P0.7mm
+Y1,1,ECS-TXO-20CSMV-AC-260-AY-TR,Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.0x1.6mm

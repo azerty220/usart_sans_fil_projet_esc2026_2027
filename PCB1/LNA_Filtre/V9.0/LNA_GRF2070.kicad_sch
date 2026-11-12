@@ -3298,7 +3298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:WDFN-8-1EP_2x2.2mm_P0.5mm_EP0.80x0.54"
+		(property "Footprint" "Library_dfn8:DFN-8-2x2mm_P0.7mm"
 			(at 102.87 91.44 0)
 			(effects
 				(font
