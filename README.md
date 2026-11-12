@@ -39,9 +39,17 @@ Le rôle principal de la chaîne d'émission, consiste à traiter les données n
         <br> 3- Exécuter une modulation ASK fidèle aux trames de données à transmettre.
         <br> 4- Filtrer efficacement le signal radiofréquence pour respecter les normes en vigueur avant son émission par l'antenne.
 ## Bloc génération de la porteuse et modulation ASK
-1- interface Nucléo PCB RF
-<br>2- Génération de la porteuse
-<br>3- Modulation ASK
+Cette partie décrit le fonctionnement des premiers bloc (Modulateur ASK et Oscillateur Local) de la chaîne détaillée précédemment, la génération de la porteuse sera réalisée par le synthétiseur de fréquence à boucle à verrouillage de phase (PLL) l’ADF4350, afin d’avoir une référence de fréquence, ce dernier sera relié à l’oscillateur ECS-TXD-20CSMV-AC-260-AY-TR et enfin pour réaliser la modulation ASK, nous utiliserons un switch RF, l’ADG918BCPZ.
+![Schéma PCB ASK Mod](images/ModASK_Schematic_PCB.png)
+###1- interface Nucléo/PCB RF
+La communication entre la carte microcontrôleur (Nucleo STM32) et le PCB RF est assurée par plusieurs connecteurs dédiés :
+![PCB ASK Mod Connecteurs](images/ModASK_Connecteurs.png)
+    • Connecteur d'interface SPI (J2) : regroupant les signaux de configuration SCK (horloge de communication), DATA (données de configuration), LE (validation du registre sélectionné) et CE (activation du composant), ainsi que la masse GND, permettant le paramétrage du synthétiseur de fréquence.
+    • Connecteur de commande (J3) : acheminant le signal de commande UART_RX issu du microcontrôleur vers le modulateur ASK.
+    • Connecteur d'alimentation (J6) : fournissant les tensions +3.3V, +2V5 (utiles pour alimenter l’ADF4350, ADG918 et l’oscillateur) et la référence de masse GND à la carte.
+###2- Génération de la porteuse
+
+###3- Modulation ASK
 <br>-> SMA vers le PCB amplificateur de puissance et filtrage
 <br> Vue d'ensemble du PCB
 
