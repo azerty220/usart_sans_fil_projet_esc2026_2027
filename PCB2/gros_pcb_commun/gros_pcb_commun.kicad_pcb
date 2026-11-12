@@ -21189,6 +21189,70 @@
 		(layer "Edge.Cuts")
 		(uuid "f24c5375-80bc-469f-99b4-f72c5ab30d10")
 	)
+	(gr_text "."
+		(at 150.62 88.92 0)
+		(layer "F.SilkS")
+		(uuid "733e7560-b184-4688-8e5a-e5a7d254df94")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "."
+		(at 118.76 89.4 0)
+		(layer "F.SilkS")
+		(uuid "a9fd0492-01ae-43fe-8ca6-a39e54b665bb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "."
+		(at 142.16 94.66 0)
+		(layer "F.SilkS")
+		(uuid "bfaf750d-dc3d-4022-a396-bc60f262d639")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Projet système ESC 2026 Version 1\nLiaison UART sans fil PC - Drône"
+		(at 139.91 79.52 0)
+		(layer "F.SilkS")
+		(uuid "e83989b1-ffb1-4356-85a5-f7fc6540696b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.0625)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "."
+		(at 120.3 92.92 0)
+		(layer "F.SilkS")
+		(uuid "f28e8a2a-17d5-4a2a-a816-78d3e34ad0a0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 128.7 77.48)
 		(end 129.96 77.48)
