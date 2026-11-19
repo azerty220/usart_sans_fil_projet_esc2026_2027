@@ -44,9 +44,9 @@ Cette partie décrit le fonctionnement des premiers bloc (Modulateur ASK et Osci
 ### 1- interface Nucléo/PCB RF
 La communication entre la carte microcontrôleur (Nucleo STM32) et le PCB RF est assurée par plusieurs connecteurs dédiés :
 ![PCB ASK Mod Connecteurs](images/ModASK_Connecteurs.png)
-    • Connecteur d'interface SPI (J2) : regroupant les signaux de configuration SCK (horloge de communication), DATA (données de configuration), LE (validation du registre sélectionné) et CE (activation du composant), ainsi que la masse GND, permettant le paramétrage du synthétiseur de fréquence.
-    • Connecteur de commande (J3) : acheminant le signal de commande UART_RX issu du microcontrôleur vers le modulateur ASK.
-    • Connecteur d'alimentation (J6) : fournissant les tensions +3.3V, +2V5 (utiles pour alimenter l’ADF4350, ADG918 et l’oscillateur) et la référence de masse GND à la carte.
+    <br>• Connecteur d'interface SPI (J2) : regroupant les signaux de configuration SCK (horloge de communication), DATA (données de configuration), LE (validation du registre sélectionné) et CE (activation du composant), ainsi que la masse GND, permettant le paramétrage du synthétiseur de fréquence.
+    <br>• Connecteur de commande (J3) : acheminant le signal de commande UART_RX issu du microcontrôleur vers le modulateur ASK.
+   <br> • Connecteur d'alimentation (J6) : fournissant les tensions +3.3V, +2V5 (utiles pour alimenter l’ADF4350, ADG918 et l’oscillateur) et la référence de masse GND à la carte.
 ### 2- Génération de la porteuse
 
 ###3- Modulation ASK
