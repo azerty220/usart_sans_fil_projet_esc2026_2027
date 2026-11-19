@@ -99,4 +99,51 @@ flowchart LR
 | Chaîne complète | Gain ≈ **18,4 dB** | NF ≈ **0,43 dB** | Alim. **5 V / 70 mA** |
 |:--|:--:|:--:|:--:|
 ## Bloc Démodulateur
-Awa
+### 1. Présentation et choix du composant
+![Schéma électrique AD8313](images/Shématique_demod.png)
+
+
+Ce PCB a été conçu sous **KiCad 9.0** pour réaliser la démodulation d'un signal radiofréquence modulé en amplitude (**ASK**), dans le cadre du projet de transmission USART sans fil entre une station au sol et un drone.
+
+Le circuit repose sur l'**AD8313 d'Analog Devices**, un détecteur logarithmique RF fonctionnant sur une plage de fréquences de **100 MHz à 2,5 GHz**.
+
+Ce composant a été choisi pour :
+- Sa compatibilité avec les fréquences envisagées de **868 MHz et 918 MHz**.
+- Sa capacité à détecter des signaux RF de faible puissance.
+- Sa sortie analogique permettant de récupérer l'enveloppe du signal ASK.
+- Son faible encombrement, adapté à la conception d'un PCB compact.
+
+Le PCB intègre également un réseau d'adaptation RF, des condensateurs de découplage et un plan de masse sur la couche **B.Cu**.
+
+### 2. Connecteur SMA – Entrée RF (J2)
+
+Le connecteur **SMA J2** constitue l'entrée radiofréquence du PCB.
+
+Il permet de raccorder une antenne ou un générateur RF à l'aide d'un câble coaxial de **50 Ω**.
+
+Le signal reçu traverse le condensateur de liaison **C2 (680 pF)**, qui bloque la composante continue, avant d'atteindre l'entrée **INHI** de l'AD8313.
+
+La résistance **R2 (53,6 Ω)** participe à l'adaptation de l'entrée RF à une impédance proche de 50 Ω afin de limiter les réflexions.
+
+Le connecteur SMA a été choisi pour faciliter les tests avec les équipements RF disponibles au laboratoire.
+
+### 3. Connecteur J3 – Alimentation et sortie démodulée
+
+Le connecteur **J3 à trois broches** regroupe l'alimentation, la masse et la sortie du démodulateur.
+
+| Broche | Signal | Fonction |
+|--------|--------|----------|
+| 1 | VCC_demod | Alimentation du circuit |
+| 2 | GND | Masse commune |
+| 3 | demodOUT | Sortie analogique démodulée |
+
+L'alimentation des deux broches **VPOS** de l'AD8313 passe par les résistances **R1 et R3 (10 Ω)**, associées aux condensateurs de découplage **C1 et C4 (100 nF)** pour réduire les perturbations sur l'alimentation.
+
+La sortie **VOUT** est reliée à **VSET** par une résistance de **0 Ω (R4)** et traverse une résistance de protection **Rprot1 (500 Ω)** avant d'atteindre le connecteur J3.
+
+Une résistance **RL1 (1 MΩ)** est également connectée entre la sortie et la masse.
+
+Ce connecteur facilite l'intégration du démodulateur avec les autres blocs du système de communication.
+Voici sa visualisation en 3D 
+![Schéma 3D](images/PCB_demod_3D.png)
+
