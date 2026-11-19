@@ -70,7 +70,7 @@ Commutation entre les 2 modes -> Johan
 # Description de la chaîne de réception
 choix des composants modules par module
 ## Bloc filtrage et LNA
-<img width="565" height="185" alt="image" src="https://github.com/user-attachments/assets/8ade717b-1c1f-4ebe-ad96-dc06328fe030" />
+
 
 Le signal capté par l'antenne est amplifié par le LNA **GRF2070**, puis filtré par le filtre SAW **SF2425E** centré sur 868,6 MHz.
 
@@ -82,8 +82,8 @@ flowchart LR
     style LNA fill:#dbeafe,stroke:#2563eb
     style SAW fill:#dcfce7,stroke:#16a34a
 ```
+<p align="center"><img width="565" height="185" alt="image" src="https://github.com/user-attachments/assets/8ade717b-1c1f-4ebe-ad96-dc06328fe030" />
 
-<p align="center"><img src="images/lna_filtre_schematic.png" width="850"/></p>
 
 | Réf. | Valeur | Rôle |
 |:--:|:--:|:--|
