@@ -62,7 +62,12 @@ La génération de la porteuse radiofréquence est assurée par le composant ADF
 <br> Vue d'ensemble du PCB
 
 ## Bloc amplificateur de puissance et filtrage
-Callum et Elise
+La sortie du modulateur est réglable en puissance entre -4dBm et 5dBm, ce qui n'est pas suffisant pour atteindre la portée voulue. 
+
+Nous avions en stock des amplificateurs SKY66185-11, utilisés pour un projet semblable l'année précédente. Ces amplificateurs Skyworks à forte linéarité fournissent un gain supplémentaire de $36.5$ dB, sur une bande de  $851$ à $894$ MHz.
+
+> Bilan de puissance à faire
+
 
 # Switch RF et antenne
 Commutation entre les 2 modes -> Johan
