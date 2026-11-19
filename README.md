@@ -70,6 +70,32 @@ Commutation entre les 2 modes -> Johan
 # Description de la chaîne de réception
 choix des composants modules par module
 ## Bloc filtrage et LNA
-Julie L et Rafik
+<img width="565" height="185" alt="image" src="https://github.com/user-attachments/assets/8ade717b-1c1f-4ebe-ad96-dc06328fe030" />
+
+Le signal capté par l'antenne est amplifié par le LNA **GRF2070**, puis filtré par le filtre SAW **SF2425E** centré sur 868,6 MHz.
+
+```mermaid
+flowchart LR
+    A((Antenne)) --> LNA[["LNA GRF2070<br/>G = 21 dB · NF = 0,4 dB"]]
+    LNA --> SAW[["Filtre SAW SF2425E<br/>BP ≈ 1,5 MHz · IL ≈ 2,65 dB"]]
+    SAW --> D[Démodulateur ASK]
+    style LNA fill:#dbeafe,stroke:#2563eb
+    style SAW fill:#dcfce7,stroke:#16a34a
+```
+
+<p align="center"><img src="images/lna_filtre_schematic.png" width="850"/></p>
+
+| Réf. | Valeur | Rôle |
+|:--:|:--:|:--|
+| C1 / C2 | 47 pF / 4,7 pF | Liaison entrée / sortie du LNA (blocage du continu) |
+| R2 | 910 Ω | Polarisation : fixe I<sub>DD</sub> ≈ 70 mA sous 5 V |
+| L1 | 22 nH | Self de choc : amène le 5 V sur `RF_OUT/VDD` |
+| C3 / C4 | 100 nF / 100 pF | Découplage BF / HF |
+| L2, C6 / L3, C7 | 22 nH, 2,7 pF / 33 nH, 3,9 pF | Adaptation 50 Ω ↔ filtre SAW (≈ 386 Ω ∥ 1,6 pF) |
+
+**Pourquoi LNA → filtre ?** D'après la formule de Friis, $F = F_1 + (F_2-1)/G_1$. Placé derrière 21 dB de gain, le filtre ne dégrade presque pas le bruit : **NF ≈ 0,43 dB**, contre ≈ 3 dB si le filtre était placé avant le LNA. Le signal ASK à 115,2 kbaud occupe environ 230 kHz et passe sans déformation dans la bande de 1,5 MHz du filtre.
+
+| Chaîne complète | Gain ≈ **18,4 dB** | NF ≈ **0,43 dB** | Alim. **5 V / 70 mA** |
+|:--|:--:|:--:|:--:|
 ## Bloc Démodulateur
 Awa
