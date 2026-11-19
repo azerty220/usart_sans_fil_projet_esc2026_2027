@@ -47,7 +47,15 @@ La communication entre la carte microcontrôleur (Nucleo STM32) et le PCB RF est
     <br>• Connecteur d'interface SPI (J2) : regroupant les signaux de configuration SCK (horloge de communication), DATA (données de configuration), LE (validation du registre sélectionné) et CE (activation du composant), ainsi que la masse GND, permettant le paramétrage du synthétiseur de fréquence.
     <br>• Connecteur de commande (J3) : acheminant le signal de commande UART_RX issu du microcontrôleur vers le modulateur ASK.
    <br> • Connecteur d'alimentation (J6) : fournissant les tensions +3.3V, +2V5 (utiles pour alimenter l’ADF4350, ADG918 et l’oscillateur) et la référence de masse GND à la carte.
+
+<br>La configuration du synthétiseur de fréquence ADF4350 (U1) est réalisée via une interface série synchrone de type SPI. Cette interface permet notamment :
+   <br> • l’écriture des registres de configuration de la PLL
+   <br> • l’initialisation et la réinitialisation du composant
+   <br> • la reprogrammation dynamique de la fréquence de sortie.
+   
 ### 2- Génération de la porteuse
+La génération de la porteuse radiofréquence est assurée par le composant ADF4350 (U1) d’Analog Devices. Ce circuit intègre un oscillateur commandé en tension (VCO) interne couvrant une large plage de fréquences, ainsi que l’ensemble des blocs nécessaires à la réalisation d’une PLL fractionnaire ou entière. 
+<br>La référence de fréquence (26MHz) est fournie par l’oscillateur à quartz Y1 (ECS-TXD-20CSMV-AC-260-AY-TR) connecté à l’entrée REFIN via le condensateur C24 (capacité bouchon de 1 nF). Dans cette application, l’ADF4350 est configuré pour fournir une porteuse à 868 MHz.
 
 ###3- Modulation ASK
 <br>-> SMA vers le PCB amplificateur de puissance et filtrage
