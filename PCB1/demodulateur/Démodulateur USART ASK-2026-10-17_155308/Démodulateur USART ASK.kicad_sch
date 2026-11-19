@@ -875,12 +875,6 @@
 		(uuid "3431cd15-47e5-47b0-8dca-526dc88b7e62")
 	)
 	(junction
-		(at 153.67 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ff421f4-7a06-4b23-b957-d49b91cb94a8")
-	)
-	(junction
 		(at 113.03 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -897,6 +891,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b25320d5-3e16-47ed-afd2-7b5cb18df45f")
+	)
+	(junction
+		(at 153.67 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5cabb2d-872c-42ba-a257-b543b313272f")
 	)
 	(wire
 		(pts
@@ -987,6 +987,16 @@
 			(type default)
 		)
 		(uuid "4e591b53-2dbb-4b73-bf74-53773af1aed1")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 156.21 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571c5bd5-7bd0-48c9-acdd-c5457549e231")
 	)
 	(wire
 		(pts
@@ -1150,16 +1160,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 156.21 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d8e051-d3bf-407a-8563-d240a7d703e5")
-	)
-	(wire
-		(pts
 			(xy 167.64 74.93) (xy 167.64 77.47)
 		)
 		(stroke
@@ -1167,6 +1167,16 @@
 			(type default)
 		)
 		(uuid "f2bc7e0a-e1de-43ba-a2f6-864331c076ce")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 153.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d944ab-8dc9-4780-85f6-e66657dadec4")
 	)
 	(wire
 		(pts
@@ -1853,82 +1863,6 @@
 			(project "Démodulateur USART ASK"
 				(path "/d941714e-3649-4f35-95c2-a1099436473b"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 153.67 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e6b3ce6-6da2-4dd6-9af3-45311c330097")
-		(property "Reference" "R16"
-			(at 156.21 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 156.21 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 151.892 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 153.67 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f2e1712-e2ea-4cbb-ad27-47d2e3212e73")
-		)
-		(pin "2"
-			(uuid "1efb7d5e-3fd9-4d91-8088-ce399bc5504a")
-		)
-		(instances
-			(project "Démodulateur USART ASK"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/ca14d6bf-a943-4d46-b7a9-fa4078108804"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "Démodulateur USART ASK"
-				(path "/d941714e-3649-4f35-95c2-a1099436473b"
-					(reference "R4")
 					(unit 1)
 				)
 			)
