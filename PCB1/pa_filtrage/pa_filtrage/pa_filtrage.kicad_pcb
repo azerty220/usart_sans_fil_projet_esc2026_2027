@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "fab_output/")
 		)
 	)
 	(net 0 "")
@@ -106,8 +106,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 0 1.43 90)
+		(property "Value" "0.1u x2"
+			(at 1.721 0.7985 180)
 			(layer "F.Fab")
 			(uuid "54c1fefc-a958-4a8b-95bb-a49c9d89de4a")
 			(effects
@@ -248,7 +248,7 @@
 			)
 		)
 		(property "Value" "2.7p"
-			(at 0 1.43 90)
+			(at 0.026 -1.322 90)
 			(layer "F.Fab")
 			(uuid "11e33d51-a46b-4163-991e-cea1f70bfc85")
 			(effects
@@ -389,7 +389,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 0)
+			(at -2.5925 -0.13 0)
 			(layer "F.Fab")
 			(uuid "b54b701e-258a-4ca0-85fc-bc46baa21199")
 			(effects
@@ -671,7 +671,7 @@
 			)
 		)
 		(property "Value" "33p"
-			(at 0 1.43 0)
+			(at -2.6625 0.037 0)
 			(layer "F.Fab")
 			(uuid "69877de5-13b2-4e87-bc09-a4916e4ab24c")
 			(effects
@@ -812,8 +812,9 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 0 4.92 90)
+			(at -1.94 1.8785 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7a13c17d-45ff-4d55-9006-4d4bf368f0f2")
 			(effects
 				(font
@@ -1199,7 +1200,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 0 1.43 0)
+			(at 2.7415 0.09 0)
 			(layer "F.Fab")
 			(uuid "9416d931-8e48-4e52-b1c1-654c4c866ea7")
 			(effects
@@ -1481,7 +1482,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 0 1.43 90)
+			(at 0.018 -1.6255 90)
 			(layer "F.Fab")
 			(uuid "238a3592-6f36-48bb-a0fd-4853b32f0025")
 			(effects
@@ -1622,7 +1623,7 @@
 			)
 		)
 		(property "Value" "24n"
-			(at 0 1.43 0)
+			(at -0.038 -1.477 0)
 			(layer "F.Fab")
 			(uuid "1d98f36d-9ac0-4ee3-90ef-4743ef643cd2")
 			(effects
@@ -1763,7 +1764,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 0 1.43 0)
+			(at 2.5765 -0.011 0)
 			(layer "F.Fab")
 			(uuid "c3d2c186-0e4c-49e1-941d-5399c39b8558")
 			(effects
@@ -1906,6 +1907,7 @@
 		(property "Value" "Conn_Coaxial"
 			(at 0 7.62 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "45859188-48f3-4e23-a9be-1c1b4b8ed867")
 			(effects
 				(font
@@ -2401,6 +2403,7 @@
 		(property "Value" "Conn_Coaxial"
 			(at 0 7.62 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "9355ddac-f373-4027-8f33-4e358f5dd520")
 			(effects
 				(font
@@ -2894,7 +2897,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 0 1.43 0)
+			(at -2.8125 -0.057 0)
 			(layer "F.Fab")
 			(uuid "a47de78f-37fc-4f8c-a441-aedd6d733bb1")
 			(effects
@@ -3035,7 +3038,7 @@
 			)
 		)
 		(property "Value" "24n"
-			(at 0 1.43 0)
+			(at 0.063 -1.208 0)
 			(layer "F.Fab")
 			(uuid "4ee6754f-7518-43a3-8ac2-fe9cb5a5b47b")
 			(effects
@@ -3177,6 +3180,7 @@
 		(property "Value" "SKY66185-11"
 			(at 5.89 3.857 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "6dbb55a9-4ed7-448f-ae4a-ae31621b0791")
 			(effects
 				(font
@@ -4656,6 +4660,32 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "e4accde5-3f61-42bf-bcf3-b55541b5e165")
+	)
+	(gr_text "ENSEA ESC\nElise Firmin\nCallum MILLS"
+		(at 157.672 95.748 0)
+		(layer "F.SilkS")
+		(uuid "3dad4a35-d168-415b-b9ca-5ffb4d769188")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "PA + Filtrage"
+		(at 157.617 110.529 0)
+		(layer "F.SilkS")
+		(uuid "89e17448-f334-4b3d-900e-a52e9c67c85c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
 	)
 	(via
 		(at 144.656 98.188)
