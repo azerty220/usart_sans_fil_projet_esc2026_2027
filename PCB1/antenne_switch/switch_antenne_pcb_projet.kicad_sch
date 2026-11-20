@@ -5,6 +5,128 @@
 	(uuid "466e3751-f273-4ede-b9d8-d94bb943d431")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Antenna"
 			(pin_numbers
 				(hide yes)
@@ -971,12 +1093,12 @@
 	)
 	(text_box "Switch RF \nPE42430MLAB-Z"
 		(exclude_from_sim no)
-		(at 77.47 52.07 0)
+		(at 74.93 63.5 0)
 		(size 71.12 54.61)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
 		(fill
 			(type none)
@@ -1245,6 +1367,94 @@
 		)
 		(uuid "efb25a31-e80a-46ae-aed2-a6be7d2c2156")
 	)
+	(global_label "V2"
+		(shape output)
+		(at 102.87 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f41dcf3-f8ca-46e5-9952-8e172b705588")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 105.2067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V1"
+		(shape output)
+		(at 82.55 110.49 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15ace367-8c42-4778-99ca-2e1a953b2a42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.55 105.2067 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V2"
+		(shape input)
+		(at 129.54 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51471956-e799-4f3e-8704-7b60020ccf75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 87.8333 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V1"
+		(shape input)
+		(at 88.9 82.55 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8cfc8638-bf14-41b3-b4fa-061e82f927e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9 87.8333 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "sig3"
 		(shape output)
 		(at 123.19 110.49 270)
@@ -1339,35 +1549,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 129.54 86.36 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 102.87 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1b8a668e-9bf2-4402-a257-38cee1036695")
-		(property "Reference" "R12"
-			(at 132.08 85.725 0)
+		(uuid "13c1c07a-1948-4d5a-a0a6-da290e2d2178")
+		(property "Reference" "J9"
+			(at 104.14 113.6649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 132.08 88.265 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 104.14 116.2049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 127.762 86.36 90)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 86.36 0)
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,30 +1594,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 129.54 86.36 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 102.87 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "62165380-88ca-4c76-8b57-45b5eb6b683a")
-		)
-		(pin "2"
-			(uuid "ca34b03d-3cc8-416f-b921-3ab56597c4ed")
+			(uuid "2726df12-bcf4-4c04-9058-833264764cd6")
 		)
 		(instances
-			(project "switch_antenne_pcb_projet"
-				(path "/466e3751-f273-4ede-b9d8-d94bb943d431"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "switch_antenne_pcb_projet"
+			(project "gros_pcb_commun"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "R12")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1798,148 +2000,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d76b425-e8d0-4a62-9766-6ad6cae93b6d")
-		(property "Reference" "#PWR060"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ad7a0b1-dd46-4aca-8877-1b1d0f616ef3")
-		)
-		(instances
-			(project "switch_antenne_pcb_projet"
-				(path "/466e3751-f273-4ede-b9d8-d94bb943d431"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "switch_antenne_pcb_projet"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8557a800-5a48-493c-984a-e35d08430ca0")
-		(property "Reference" "#PWR061"
-			(at 129.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef343324-2327-483a-b606-862f709db191")
-		)
-		(instances
-			(project "switch_antenne_pcb_projet"
-				(path "/466e3751-f273-4ede-b9d8-d94bb943d431"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "switch_antenne_pcb_projet"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 165.1 95.25 0)
 		(unit 1)
@@ -2086,81 +2146,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 88.9 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aeb2b092-84d3-4169-9d10-437864a340ea")
-		(property "Reference" "R11"
-			(at 91.44 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 91.44 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.122 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e47ee6df-bd97-478c-bbcd-47e7e5cad2e0")
-		)
-		(pin "2"
-			(uuid "ade646fb-fd30-4fc6-ad2f-32d6d67e0769")
-		)
-		(instances
-			(project "switch_antenne_pcb_projet"
-				(path "/466e3751-f273-4ede-b9d8-d94bb943d431"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "switch_antenne_pcb_projet"
-				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 90.17 0)
 		(unit 1)
@@ -2301,6 +2286,73 @@
 			(project "switch_antenne_pcb_projet"
 				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
 					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 82.55 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eae81515-772f-4840-99f8-46b76b2f26ed")
+		(property "Reference" "J8"
+			(at 83.82 113.6649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 83.82 116.2049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 82.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 82.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29b323fe-5ecc-4233-b7c8-0dc5e1dd01e9")
+		)
+		(instances
+			(project ""
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87/52934ae4-c5b0-49f4-9fc4-600729130e5d"
+					(reference "J8")
 					(unit 1)
 				)
 			)
