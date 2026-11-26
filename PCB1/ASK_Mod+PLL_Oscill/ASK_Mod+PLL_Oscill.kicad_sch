@@ -5115,7 +5115,7 @@
 			)
 		)
 	)
-	(global_label "Porteuse_RFC"
+	(global_label "Porteuse_RFC_ap"
 		(shape input)
 		(at 245.11 104.14 180)
 		(fields_autoplaced yes)
@@ -5127,7 +5127,7 @@
 		)
 		(uuid "5b118612-1f77-472f-ab3a-32fb84dd54ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2434 104.14 0)
+			(at 225.9778 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5203,7 @@
 			)
 		)
 	)
-	(global_label "Porteuse_RFC"
+	(global_label "Porteuse_RFC_ap"
 		(shape output)
 		(at 240.03 152.4 0)
 		(fields_autoplaced yes)
@@ -5215,7 +5215,7 @@
 		)
 		(uuid "7216c663-829a-496e-9304-56d332178722")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.8966 152.4 0)
+			(at 259.1622 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8214,7 +8214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-14_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 203.2 162.56 0)
 			(effects
 				(font
@@ -9676,7 +9676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4 nF"
+		(property "Value" "4 pF"
 			(at 145.288 179.578 0)
 			(effects
 				(font
@@ -10790,7 +10790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4 nF"
+		(property "Value" "4 pF"
 			(at 135.128 161.29 0)
 			(effects
 				(font
