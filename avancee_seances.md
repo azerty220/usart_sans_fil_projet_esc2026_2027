@@ -3,15 +3,10 @@
 
 
 * cadre du projet fixé avec le client
-
 * définition d'un chef de projet
-
 * lecture des documentations existantes
-
 * mise en place d'un outil de gestion d'information : GitHub
-
 * mise en place d'un outil de messagerie : teams
-
 * Comparaison des solutions proposées (BPSK à 2.44GHz, et ASK à 868MHz) : Avantages, Inconvénients
 
 
@@ -100,10 +95,39 @@ Avoir soudé le PCB et avoir effectué les tests afin de pouvoir modifié le rou
 
 
 
-**Séance 7 :**
+**Séance 7,8,9 :**
 
 
 
-* écrire ici
+* Recherche des composants pour le pcb global faite et mis de côté pour préparer sa réception
+* Création d'une deuxième version du pcb commun en tenant compte des problèmes identifiés (switch non commandé en tension, mauvaise empreinte) + amélioration (ajout de led pour les alimentations, ajout d'une solder bridge avec un SMA, piste RF plus courtes)
+* Avancement du Read-me
+* Gestion des commandes PCB avec le fablab (suites à des problèmes avec la douane)
 
+
+
+**Séance 10 : (26/11/2026)**
+
+
+
+* Test du PCB de modulation
+* Tri du git
+* Finitions sur la version 2 du PCB commun 
+* Avancement du Read-me
+
+
+
+**Devoir pour la séance 11 :**
+
+
+
+* Souder son petit PCB si réception
+
+
+
+**Séance 11 :** 
+
+
+
+* 
 
