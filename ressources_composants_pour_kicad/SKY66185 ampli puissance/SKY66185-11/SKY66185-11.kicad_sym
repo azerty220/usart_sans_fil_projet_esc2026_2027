@@ -1,0 +1,489 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "SKY66185-11" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -15.24 16.002 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "SKY66185-11" (id 1) (at -15.24 -15.24 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SKY66185-11:IC_SKY66185-11" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DigiKey_Part_Number" "" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/SKY66185-11/Skyworks+Solution%252C+Inc./view-part/?ref=snap" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SMD-28 Skyworks Solutions Inc." (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/SKY66185-11/Skyworks+Solution%252C+Inc./view-part/?ref=eda" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer recommendations" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Skyworks Solutions Inc." (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "SKY66185-11" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            RF Amplifier IC LTE, W-CDMA 851MHz ~ 894MHz 28-MCM (5x5)\n                        \n" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Skyworks" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "SKY66185-11_0_0"
+      (rectangle (start -15.24 -12.7) (end 15.24 15.24)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -7.62 180.0) (length 5.08) hide
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 2.54 0) (length 5.08)
+        (name "RFIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -20.32 -2.54 0) (length 5.08)
+        (name "~{VEN}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 7.62 180.0) (length 5.08)
+        (name "VBIAS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 0.0 180.0) (length 5.08)
+        (name "RFOUT_COUP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 20.32 2.54 180.0) (length 5.08)
+        (name "RFOUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 10.16 180.0) (length 5.08)
+        (name "VCC3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 12.7 180.0) (length 5.08)
+        (name "VCC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08)
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_29"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_30"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_31"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_32"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_33"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_34"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_35"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 20.32 -10.16 180.0) (length 5.08) hide
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "29_36"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
