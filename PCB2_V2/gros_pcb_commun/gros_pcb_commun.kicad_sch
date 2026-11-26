@@ -1068,12 +1068,6 @@
 		(color 0 0 0 0)
 		(uuid "30eb84f2-c0cb-495f-aaad-12dffaf18387")
 	)
-	(junction
-		(at 35.56 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a198e4e7-ccdb-4a88-835c-263348baf78e")
-	)
 	(no_connect
 		(at 99.06 86.36)
 		(uuid "11695570-336f-459b-9aa0-8d94f60a0efa")
@@ -1081,16 +1075,6 @@
 	(no_connect
 		(at 100.33 105.41)
 		(uuid "8f865d73-c5e2-4f90-9b5b-04fe3be4f271")
-	)
-	(wire
-		(pts
-			(xy 35.56 73.66) (xy 35.56 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00964d8a-dc38-448a-9523-2f41ee62265e")
 	)
 	(wire
 		(pts
@@ -1584,6 +1568,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 40.64 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02382dae-c4d2-48e6-8f57-fe00001dcf4c")
+		(property "Reference" "#PWR080"
+			(at 40.64 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72a212ba-dc4d-4270-bad7-cd32c791b62d")
+		)
+		(instances
+			(project ""
+				(path "/76074578-7479-44e4-aae5-03319eb4cd87"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 76.2 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1718,7 +1768,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 77.47 90)
+		(at 40.64 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1727,23 +1777,25 @@
 		(fields_autoplaced yes)
 		(uuid "1dea056a-193d-4e39-933c-521d41d311df")
 		(property "Reference" "R12"
-			(at 38.1 72.39 90)
+			(at 43.18 78.7399 0)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "100"
-			(at 38.1 74.93 90)
+			(at 43.18 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.1 77.47 0)
+			(at 40.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1804,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 77.47 0)
+			(at 40.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1813,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 77.47 0)
+			(at 40.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
