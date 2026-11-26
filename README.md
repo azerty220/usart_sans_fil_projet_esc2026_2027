@@ -67,7 +67,7 @@ La communication entre la carte microcontrôleur (Nucleo STM32) et le PCB RF est
 La génération de la porteuse radiofréquence est assurée par le composant ADF4350 (U1) d’Analog Devices. Ce circuit intègre un oscillateur commandé en tension (VCO) interne couvrant une large plage de fréquences, ainsi que l’ensemble des blocs nécessaires à la réalisation d’une PLL fractionnaire ou entière. 
 <br>La référence de fréquence (26MHz) est fournie par l’oscillateur à quartz Y1 (ECS-TXD-20CSMV-AC-260-AY-TR) connecté à l’entrée REFIN via le condensateur C24 (capacité bouchon de 1 nF). Dans cette application, l’ADF4350 est configuré pour fournir une porteuse à 868 MHz.
 
-###3- Modulation ASK
+### 3- Modulation ASK
 <br>-> SMA vers le PCB amplificateur de puissance et filtrage
 <br> Vue d'ensemble du PCB
 
